@@ -6,21 +6,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio - AmelliaRezki</title>
 
-    <link rel="stylesheet" href="css\style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
+<body class="font-[Merriweather]">
     <!-- Header Section -->
-    <header></header>
+    <header class="main-header border-1 border-blue-600">
+        <!-- Logo Web -->
+        <div class="logo">
+
+
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-1 text-blue-600">
+                <li><a class="border p-[10px] rounded" href="#home">Home</a></li>
+                <li><a class="border p-[10px] rounded" href="#about-me">About Me</a></li>
+                <li><a class="border p-[10px] rounded" href="#artworks">Portfolio</a></li>
+                <li><a class="border p-[10px] rounded" href="#message-me">Message Me</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
     
     <!-- Main Content Section -->
-    <main></main>
+    <main>
+        <!-- Welcome Content  -->
+        <section id="home" class="min-h-screen flex items-center justify-center gap-8 flex-col text-blue-600">
+            <h1 class="text-7xl font-bold">
+                Hi  <span id="name"></span>✨! Welcome to My Portfolio!
+            </h1>
+        </section>
+
+        <!-- About Me Content -->
+<section id="about-me" class="min-h-screen flex flex-col items-center justify-center gap-6 px-8 text-blue-600 text-center">
+  <!-- Foto -->
+  <div class="w-full flex justify-center">
+    <img src="https://iili.io/KlbDsd7.md.png" alt="My Photo" class="max-w-[500px] md:max-w-[600px] h-auto">
+  </div>
+  <!-- Deskripsi -->
+  <h1 class="text-5xl md:text-5xl leading-relaxed max-w-8xl">
+    I'm <b> Reyhan </b>, a 3D Illustrator who brings imagination to life with vibrant, stylized visuals that tell stories in every detail.
+  </h1>
+</section>
+
+
+
+
+
+   <!-- Portfolio Content -->
+  <section id="artworks" class="px-8 py-16">
+    <h2 class="text-5xl font-bold mb-12 text-center text-blue-600">✨ Works ✨</h2>
+
+    <div class="gambar">
+      <!-- Artwork 1 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7NHb.md.jpg" alt="Artwork 1" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Editorial Illustration for Wired Magazine (2025)  
+        </div>
+      </div>
+
+      <!-- Artwork 2 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7Xf9.md.jpg" alt="Artwork 2" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Poster Illustration for JIX Manga Convections (2024)
+        </div>
+      </div>
+
+      <!-- Artwork 3 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7hle.md.jpg" alt="Artwork 3" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Ad Campaign for Nike (2023)
+        </div>
+      </div>
+
+      <!-- Artwork 5 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7kDQ.md.jpg" alt="Artwork 5" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Editorial Illustration for INSIDER Business (2024)
+        </div>
+      </div>
+
+      <!-- Artwork 6 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7rf1.md.jpg" alt="Artwork 6" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Album Cover for Indie Band (2024)
+        </div>
+      </div>
+
+      <!-- Artwork 7 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7txp.md.jpg" alt="Artwork 7" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Ad Campaign for Youtube (2023)
+        </div>
+      </div>
+
+      <!-- Artwork 8 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z76Ug.md.jpg" alt="Artwork 8" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Editorial Illustration for The New York Times (2024)
+        </div>
+      </div>
+
+      <!-- Artwork 9 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7bsI.md.jpg" alt="Artwork 9" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Album Cover for Sagitarius (2024)
+        </div>
+      </div>
+
+      <!-- Artwork 10 -->
+      <div class="gallery relative overflow-hidden rounded-xl border-2 border-blue-600 group">
+        <img src="https://iili.io/K0z7y0X.md.jpg" alt="Artwork 10" class="w-full h-auto">
+        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white p-4 transition">
+          Ad Campaign for Spotify (2023)
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Message Me Content -->
+<section id="message-me"
+  class="flex flex-col md:flex-row items-stretch justify-center gap-12 px-8  min-h-screen relative overflow-hidden">
+
+  <!-- Form (Left) -->
+  <div class="w-full md:w-1/2 flex justify-center items-center relative z-10">
+    <form onsubmit="return false;" class="rounded-xl p-8 bg-white w-full max-w-md border border-blue-600">
+      <h2 class="text-3xl font-bold mb-6 text-blue-600 text-center">✨ Message Me ✨</h2>
+
+      <div class="mb-5">
+        <label for="sender" class="block text-lg font-medium mb-2 text-blue-700">Name</label>
+        <input type="text" id="sender" name="sender"
+          class="w-full border border-blue-600 rounded-lg p-3 focus:outline-none focus:border-blue-600 transition"
+          placeholder="Your Name">
+      </div>
+
+      <div class="mb-5">
+        <label for="email" class="block text-lg font-medium mb-2 text-blue-700">Email</label>
+        <input type="email" id="email" name="email"
+          class="w-full border border-blue-600 rounded-lg p-3 focus:outline-none focus:border-blue-600 transition"
+          placeholder="you@email.com">
+      </div>
+
+      <div class="mb-6">
+        <label for="message" class="block text-lg font-medium mb-2 text-blue-700">Message</label>
+        <textarea id="message" name="message" rows="5"
+          class="w-full border border-blue-600 rounded-lg p-3 focus:outline-none focus:border-blue-600 transition"
+          placeholder="Type your message..."></textarea>
+      </div>
+
+      <div class="flex justify-end">
+        <button type="button" onclick="validateForm()"
+          class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Gambar -->
+  <div class="absolute inset-0 md:relative md:w-1/2 flex">
+    <img src="https://iili.io/K0OSBOQ.md.png" alt="Illustration"
+         class="w-full h-full object-contain md:object-cover md:object-right-bottom">
+  </div>
+</section>
+
+
+        </main>
 
     <!-- Footer Content Section -->
-    <footer></footer>
+    <footer>
+        <div class="text-center p-10 bg-blue-600 text-white">
+            <p class="mb-2">
+    This is a mockup project created to complete the RevoU Mini Project. All images on this website do not belong to me.
+  </p>
+           <p> &copy; 2024 Reyhan. All rights reserved.</p>
+        </div>
+    </footer>
 
+
+
+
+
+    
     <!-- link JavaScript External -->
-    <script src="js\script.js"></script>
+    <script src="js/script.js"></script>
+
+
+    
 </body>
 
 </html>
